@@ -12,6 +12,22 @@ class Account
         $this->errorArray = array();
     }
 
+    public function login($un, $pw)
+    {
+
+        $pw = md5($pw);
+
+        $query = mysqli_query($this->con, "SELECT * FROM users WHERE username='$un' AND password='$pw'");
+
+        if (mysqli_num_rows($query) == 1) {
+            return true;
+        } else {
+            array_push($this->errorArray, Constants::$loginFailed);
+            return false;
+        }
+
+    }
+
     public function register($un, $fn, $ln, $em, $em2, $pw, $pw2)
     {
         //validate data for db
@@ -62,7 +78,12 @@ class Account
             return;
         }
 
-        //todo: check if username exists
+        //check if username exists
+        $checkUsernameQuery = mysqli_query($this->con, "SELECT username FROM users WHERE username='$un'");
+        if (mysqli_num_rows($checkUsernameQuery) != 0) {
+            array_push($this->errorArray, Constants::$usernameTaken);
+            return;
+        }
 
     }
 
@@ -97,7 +118,12 @@ class Account
             return;
         }
 
-        //todo: check that email hasn't already been used
+        //check that email hasn't already been used
+        $checkEmailQuery = mysqli_query($this->con, "SELECT email FROM users WHERE email='$em'");
+        if (mysqli_num_rows($checkEmailQuery) != 0) {
+            array_push($this->errorArray, Constants::$emailTaken);
+            return;
+        }
 
     }
 
