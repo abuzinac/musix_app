@@ -1,30 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SHOW_STRUCTURE" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b3bc0bb0-f9ff-4ffd-a52f-d808dd6339d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/pause-green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/play-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/playlist.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/previous.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/repeat-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/repeat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/shuffle-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/shuffle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/volume-mute.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/icons/volume.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/artwork/clearday.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/artwork/energy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/artwork/funkyelement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/artwork/goinghigher.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/artwork/popdance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/artwork/sweet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/artwork/ukulele.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-acousticbreeze.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-anewbeginning.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-betterdays.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-buddy.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-clearday.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-cute.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-dubstep.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-energy.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-epic.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-extremeaction.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-funkyelement.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-funnysong.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-goinghigher.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-happiness.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-happyrock.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-jazzyfrenchy.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-littleidea.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-memories.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-moose.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-november.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-ofeliasdream.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-popdance.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-retrosoul.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-sadday.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-scifi.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-slowmotion.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-sunny.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-sweet.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-tenderness.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-thelounge.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-tomorrow.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/music/bensound-ukulele.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/navBarContainer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/nowPlayingBar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musix.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/abuzinac.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/abuzinac.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +92,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="musix: schema" type="ebfa3cd1:MariaImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="musix@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="musix: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="albums: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -69,6 +106,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Rw1xtBrUM32Vp9mMsuZFde3et2" />
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -83,37 +126,28 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\icons" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\coding\xampp\htdocs\musix_app\assets\images" />
       <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\profile_pics" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\icons" />
+    </key>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -154,6 +188,25 @@
       <workItem from="1572726930050" duration="4882000" />
       <workItem from="1572898079805" duration="27000" />
       <workItem from="1572898134903" duration="7040000" />
+      <workItem from="1573079550363" duration="739000" />
+      <workItem from="1573167488298" duration="148000" />
+      <workItem from="1573232376487" duration="1287000" />
+      <workItem from="1573772420445" duration="25000" />
+      <workItem from="1573772532121" duration="8000" />
+      <workItem from="1574198132497" duration="14000" />
+      <workItem from="1574279313116" duration="3509000" />
+      <workItem from="1574358557986" duration="1397000" />
+      <workItem from="1574370245601" duration="2030000" />
+      <workItem from="1574460688305" duration="10000" />
+      <workItem from="1574530903016" duration="803000" />
+      <workItem from="1574536937139" duration="4069000" />
+      <workItem from="1574793197534" duration="112000" />
+      <workItem from="1575236887362" duration="84000" />
+      <workItem from="1575237020815" duration="8000" />
+      <workItem from="1575914987013" duration="65000" />
+      <workItem from="1575915146773" duration="24000" />
+      <workItem from="1575915191259" duration="79000" />
+      <workItem from="1576095995231" duration="799000" />
     </task>
     <servers />
   </component>
@@ -172,5 +225,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575915161033">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575915161033" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1575915269183">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1575915269183" />
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1576095994610">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576095994610" />
   </component>
 </project>
