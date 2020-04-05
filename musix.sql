@@ -1,4 +1,11 @@
-create schema musix collate latin2_croatian_ci;
+# sipavanje baze
+#C:\xampp\mysql\bin\mysql.exe -ubuzinac -pbuzinac --default_character_set=utf8 < C:\xampp\htdocs\musix_app\musix.sql
+
+
+drop database if exists musix;
+create database musix character set utf8 collate utf8_croatian_ci;
+
+use musix;
 
 create table albums
 (

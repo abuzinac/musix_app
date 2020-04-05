@@ -5,55 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3bc0bb0-f9ff-4ffd-a52f-d808dd6339d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/artwork/clearday.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/artwork/energy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/artwork/funkyelement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/artwork/goinghigher.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/artwork/popdance.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/artwork/sweet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/artwork/ukulele.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-acousticbreeze.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-anewbeginning.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-betterdays.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-buddy.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-clearday.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-cute.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-dubstep.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-energy.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-epic.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-extremeaction.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-funkyelement.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-funnysong.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-goinghigher.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-happiness.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-happyrock.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-jazzyfrenchy.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-littleidea.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-memories.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-moose.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-november.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-ofeliasdream.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-popdance.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-retrosoul.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-sadday.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-scifi.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-slowmotion.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-sunny.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-sweet.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-tenderness.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-thelounge.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-tomorrow.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/music/bensound-ukulele.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/navBarContainer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/nowPlayingBar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/musix.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/album.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/classes/Album.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/classes/Artist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/classes/Song.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/abuzinac.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/abuzinac.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musix.sql" beforeDir="false" afterPath="$PROJECT_DIR$/musix.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +59,7 @@
         <item name="musix@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="musix: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="albums: table" type="dbc44a63:MariaImplModel$Table" />
+        <item name="songs: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -114,9 +76,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -127,7 +90,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -143,7 +106,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="musix@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="musix@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3f22b86f" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -206,7 +179,63 @@
       <workItem from="1575914987013" duration="65000" />
       <workItem from="1575915146773" duration="24000" />
       <workItem from="1575915191259" duration="79000" />
-      <workItem from="1576095995231" duration="799000" />
+      <workItem from="1576095995231" duration="1782000" />
+      <workItem from="1576842062970" duration="119000" />
+      <workItem from="1576842231397" duration="24000" />
+      <workItem from="1576875838547" duration="611000" />
+      <workItem from="1576937926939" duration="260000" />
+      <workItem from="1577118184294" duration="11000" />
+      <workItem from="1577192364667" duration="86000" />
+      <workItem from="1577192536352" duration="753000" />
+      <workItem from="1577634444266" duration="7000" />
+      <workItem from="1577634474925" duration="1520000" />
+      <workItem from="1578301784642" duration="637000" />
+      <workItem from="1578688788120" duration="20000" />
+      <workItem from="1578778678002" duration="13000" />
+      <workItem from="1579112940105" duration="8000" />
+      <workItem from="1579209407797" duration="9000" />
+      <workItem from="1579347959526" duration="16000" />
+      <workItem from="1579722371742" duration="30000" />
+      <workItem from="1579722451938" duration="421000" />
+      <workItem from="1579880359641" duration="773000" />
+      <workItem from="1580242064477" duration="59000" />
+      <workItem from="1580412730110" duration="13000" />
+      <workItem from="1580412756306" duration="17000" />
+      <workItem from="1580501200190" duration="17000" />
+      <workItem from="1581021970998" duration="145000" />
+      <workItem from="1581365879726" duration="12000" />
+      <workItem from="1581692088507" duration="40000" />
+      <workItem from="1581692184291" duration="159000" />
+      <workItem from="1581873514280" duration="30000" />
+      <workItem from="1582144653176" duration="11000" />
+      <workItem from="1582144680455" duration="1689000" />
+      <workItem from="1582373718447" duration="1044000" />
+      <workItem from="1582663850971" duration="17000" />
+      <workItem from="1582663881754" duration="344000" />
+      <workItem from="1582920136139" duration="278000" />
+      <workItem from="1583181681630" duration="12000" />
+      <workItem from="1583353242160" duration="382000" />
+      <workItem from="1583536677863" duration="12000" />
+      <workItem from="1583536703856" duration="364000" />
+      <workItem from="1583875328589" duration="11000" />
+      <workItem from="1584048316773" duration="10000" />
+      <workItem from="1584308791929" duration="40000" />
+      <workItem from="1584476577781" duration="11000" />
+      <workItem from="1584562864733" duration="22000" />
+      <workItem from="1584562950644" duration="25000" />
+      <workItem from="1584795159257" duration="101000" />
+      <workItem from="1585064205743" duration="49000" />
+      <workItem from="1585158922513" duration="1262000" />
+      <workItem from="1585317858668" duration="8000" />
+      <workItem from="1585435984389" duration="620000" />
+      <workItem from="1585659188232" duration="12000" />
+      <workItem from="1585757907932" duration="15000" />
+      <workItem from="1585857613127" duration="336000" />
+      <workItem from="1585859171442" duration="350000" />
+      <workItem from="1585860280269" duration="140000" />
+      <workItem from="1586020900804" duration="628000" />
+      <workItem from="1586031572962" duration="8119000" />
+      <workItem from="1586078548525" duration="3423000" />
     </task>
     <servers />
   </component>
@@ -227,17 +256,57 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575915161033">
+    <state x="636" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586090530834">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575915161033" />
-    <state x="461" y="167" key="SettingsEditor" timestamp="1575915269183">
+    <state x="636" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586090530834" />
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584562875113">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1575915269183" />
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1576095994610">
+    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584562875113" />
+    <state x="140" y="37" key="CommitChangelistDialog2" timestamp="1586090597930">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1576095994610" />
+    <state x="140" y="37" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1586090597930" />
+    <state width="247" height="195" key="DatabaseViewActions_Filter" timestamp="1585859473100">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="247" height="195" key="DatabaseViewActions_Filter/0.0.1920.1050@0.0.1920.1050" timestamp="1585859473100" />
+    <state x="634" y="300" key="FileChooserDialogImpl" timestamp="1585860348548">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="634" y="300" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1585860348548" />
+    <state width="661" height="285" key="GridCell.Tab.0.bottom" timestamp="1586037879811">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="661" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586037879811" />
+    <state width="661" height="285" key="GridCell.Tab.0.center" timestamp="1586037879811">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="661" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586037879811" />
+    <state width="661" height="285" key="GridCell.Tab.0.left" timestamp="1586037879811">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="661" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586037879811" />
+    <state width="661" height="285" key="GridCell.Tab.0.right" timestamp="1586037879811">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="661" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586037879811" />
+    <state x="125" y="116" key="SettingsEditor" timestamp="1586032470921">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="125" y="116" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586032470921" />
+    <state x="793" y="158" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1582144892990">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="793" y="158" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582144892990" />
+    <state x="914" y="288" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1585860329601">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="914" y="288" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585860329601" />
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1586078548757">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586078548757" />
   </component>
 </project>
