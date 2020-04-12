@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3bc0bb0-f9ff-4ffd-a52f-d808dd6339d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/album.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/classes/Album.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/classes/Artist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/classes/Song.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/abuzinac.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/abuzinac.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/getAlbumJson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/getArtistJson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/getSongJson.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/updatePlays.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/album.php" beforeDir="false" afterPath="$PROJECT_DIR$/album.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/classes/Song.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/classes/Song.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/musix.sql" beforeDir="false" afterPath="$PROJECT_DIR$/musix.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/nowPlayingBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/nowPlayingBar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +57,17 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="musix: schema" type="ebfa3cd1:MariaImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="musix@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="musix: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="songs: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1Rw1xtBrUM32Vp9mMsuZFde3et2" />
   <component name="ProjectViewState">
@@ -75,7 +77,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -90,15 +92,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\icons" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\coding\xampp\htdocs\musix_app\assets\images" />
       <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\profile_pics" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\icons" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -235,7 +237,19 @@
       <workItem from="1585860280269" duration="140000" />
       <workItem from="1586020900804" duration="628000" />
       <workItem from="1586031572962" duration="8119000" />
-      <workItem from="1586078548525" duration="3423000" />
+      <workItem from="1586078548525" duration="3822000" />
+      <workItem from="1586110918116" duration="8292000" />
+      <workItem from="1586192128219" duration="5968000" />
+      <workItem from="1586204559528" duration="3013000" />
+      <workItem from="1586262389348" duration="2337000" />
+      <workItem from="1586508403322" duration="12000" />
+      <workItem from="1586550147384" duration="12000" />
+      <workItem from="1586636233522" duration="4049000" />
+      <workItem from="1586640457197" duration="28000" />
+      <workItem from="1586674754834" duration="7000" />
+      <workItem from="1586689129323" duration="5000" />
+      <workItem from="1586689901335" duration="6393000" />
+      <workItem from="1586706807473" duration="1372000" />
     </task>
     <servers />
   </component>
@@ -256,10 +270,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="636" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586090530834">
+    <state x="636" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586111204618">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="636" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586090530834" />
+    <state x="636" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586111204618" />
+    <state x="354" y="253" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1586706712842">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="354" y="253" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1920.1050@0.0.1920.1050" timestamp="1586706712842" />
     <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584562875113">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -268,10 +286,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="140" y="37" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1586090597930" />
-    <state width="247" height="195" key="DatabaseViewActions_Filter" timestamp="1585859473100">
+    <state width="247" height="195" key="DatabaseViewActions_Filter" timestamp="1586090933792">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="247" height="195" key="DatabaseViewActions_Filter/0.0.1920.1050@0.0.1920.1050" timestamp="1585859473100" />
+    <state width="247" height="195" key="DatabaseViewActions_Filter/0.0.1920.1050@0.0.1920.1050" timestamp="1586090933792" />
     <state x="634" y="300" key="FileChooserDialogImpl" timestamp="1585860348548">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -292,10 +310,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="661" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586037879811" />
-    <state x="125" y="116" key="SettingsEditor" timestamp="1586032470921">
+    <state x="159" y="196" key="SettingsEditor" timestamp="1586707529765">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="125" y="116" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586032470921" />
+    <state x="159" y="196" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586707529765" />
     <state x="793" y="158" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1582144892990">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -304,9 +322,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="914" y="288" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585860329601" />
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1586078548757">
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1586706808823">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586078548757" />
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586706808823" />
+    <state x="147" y="49" width="758" height="957" key="find.popup" timestamp="1586193663953">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="147" y="49" width="758" height="957" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586193663953" />
   </component>
 </project>
