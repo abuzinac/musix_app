@@ -10,6 +10,12 @@ html, body {
     letter-spacing: 1px;
 }
 
+span {
+    cursor: pointer;
+    outline: none;
+}
+
+
 body {
     background-color: #181818;
     font-size: 14px;
@@ -173,7 +179,9 @@ body {
 
 .logo {
     text-decoration: none;
+    cursor: pointer;
 }
+
 
 .logo h1 {
     font-family: 'Bree Serif', sans-serif;
@@ -361,6 +369,70 @@ body {
 .tracklistRow .trackInfo .trackName {
     color: #ffffff;
     margin-bottom: 7px;
+}
+
+.artistInfo {
+    text-align: center;
+}
+
+.button {
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: transparent;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: 2px solid #ffffff;
+    border-radius: 500px;
+    padding: 15px;
+    min-width: 130px;
+}
+
+.button.green {
+    background-color: #2ebd59;
+    border-color: #2ebd59;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #939393;
+    margin-bottom: 20px;
+}
+
+.trackListContainer h2,
+.gridViewContainer h2 {
+    text-align: center;
+}
+
+[role="link"] {
+    cursor: pointer;
+}
+
+.button.green {
+    outline: none;
+}
+
+.searchContainer {
+    background-color: #242424;
+    padding: 20px 28px;
+}
+
+.searchContainer h4 {
+    margin: 0;
+    font-weight: 300;
+}
+
+.searchContainer .searchInput {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 62px;
+    letter-spacing: 2px;
+}
+
+input:focus {
+    outline: none;
 }
 
 

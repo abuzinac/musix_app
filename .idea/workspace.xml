@@ -5,20 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3bc0bb0-f9ff-4ffd-a52f-d808dd6339d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/getAlbumJson.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/getArtistJson.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/getSongJson.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/updatePlays.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/artist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/includedFiles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/album.php" beforeDir="false" afterPath="$PROJECT_DIR$/album.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/classes/Song.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/classes/Song.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/classes/Artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/classes/Artist.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/navBarContainer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navBarContainer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/nowPlayingBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/nowPlayingBar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,39 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="musix@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="musix@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="musix@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="musix: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,58 +43,56 @@
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/musix.sql" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\icons" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\coding\xampp\htdocs\musix_app\assets\images" />
       <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\profile_pics" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\icons" />
+    </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunManager">
+    <configuration name="musix_app" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="musix@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="musix@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@3f22b86f" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
+        <item itemvalue="PHPUnit.musix_app" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -250,85 +218,97 @@
       <workItem from="1586689129323" duration="5000" />
       <workItem from="1586689901335" duration="6393000" />
       <workItem from="1586706807473" duration="1372000" />
+      <workItem from="1586763627302" duration="16000" />
+      <workItem from="1586774411423" duration="167000" />
+      <workItem from="1586789617377" duration="611000" />
+      <workItem from="1586813986417" duration="10000" />
+      <workItem from="1586861276361" duration="10000" />
+      <workItem from="1586884099502" duration="85000" />
+      <workItem from="1586884241750" duration="139000" />
+      <workItem from="1586899272837" duration="162000" />
+      <workItem from="1586899447882" duration="265000" />
+      <workItem from="1586899737963" duration="195000" />
+      <workItem from="1586981688725" duration="5209000" />
+      <workItem from="1587072964786" duration="1150000" />
+      <workItem from="1587074136318" duration="877000" />
+      <workItem from="1587156873925" duration="36000" />
+      <workItem from="1587156929940" duration="835000" />
+      <workItem from="1587233650570" duration="291000" />
+      <workItem from="1587233962471" duration="54000" />
+      <workItem from="1587494752459" duration="171000" />
+      <workItem from="1588097825525" duration="261000" />
+      <workItem from="1588110895653" duration="694000" />
+      <workItem from="1588528932766" duration="34000" />
+      <workItem from="1588529023391" duration="1521000" />
+      <workItem from="1589228728173" duration="208000" />
+      <workItem from="1589228958741" duration="652000" />
+      <workItem from="1589229799279" duration="3000" />
+      <workItem from="1589491033039" duration="65000" />
+      <workItem from="1589576570487" duration="555000" />
+      <workItem from="1589749967471" duration="1736000" />
+      <workItem from="1590350185532" duration="17000" />
+      <workItem from="1590438668796" duration="12000" />
+      <workItem from="1590438698158" duration="3074000" />
+      <workItem from="1590441798713" duration="111000" />
+      <workItem from="1590697671916" duration="21000" />
+      <workItem from="1590697711613" duration="1341000" />
+      <workItem from="1590933607626" duration="607000" />
+      <workItem from="1591131893946" duration="23000" />
+      <workItem from="1591644995261" duration="64000" />
+      <workItem from="1591645118138" duration="739000" />
+      <workItem from="1592066095064" duration="69000" />
+      <workItem from="1592168808168" duration="385000" />
+      <workItem from="1593553864409" duration="233000" />
+      <workItem from="1593618612721" duration="636000" />
+      <workItem from="1593716259658" duration="25000" />
+      <workItem from="1594748228949" duration="27000" />
+      <workItem from="1594748313679" duration="4000" />
+      <workItem from="1595766090997" duration="20000" />
+      <workItem from="1595766169103" duration="19000" />
+      <workItem from="1596375557892" duration="155000" />
+      <workItem from="1596375788201" duration="14000" />
+      <workItem from="1597339857524" duration="12000" />
+      <workItem from="1598042280528" duration="26000" />
+      <workItem from="1598197032202" duration="1996000" />
+      <workItem from="1599395642061" duration="125000" />
+      <workItem from="1599395827684" duration="1095000" />
+      <workItem from="1600520074059" duration="12000" />
+      <workItem from="1600520107023" duration="14000" />
+      <workItem from="1600706156199" duration="971000" />
+      <workItem from="1600983715913" duration="337000" />
+      <workItem from="1600984099284" duration="20000" />
+      <workItem from="1601213644757" duration="957000" />
+      <workItem from="1601214625900" duration="4213000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="636" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586111204618">
+    <state x="539" y="229" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601216733510">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="636" y="204" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586111204618" />
-    <state x="354" y="253" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1586706712842">
+    <state x="539" y="229" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601216733510" />
+    <state x="640" y="244" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596375564003">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="354" y="253" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1920.1050@0.0.1920.1050" timestamp="1586706712842" />
-    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584562875113">
+    <state x="640" y="244" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1596375564003" />
+    <state width="243" height="195" key="DatabaseViewActions_Filter" timestamp="1601214044655">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584562875113" />
-    <state x="140" y="37" key="CommitChangelistDialog2" timestamp="1586090597930">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="140" y="37" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1586090597930" />
-    <state width="247" height="195" key="DatabaseViewActions_Filter" timestamp="1586090933792">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="247" height="195" key="DatabaseViewActions_Filter/0.0.1920.1050@0.0.1920.1050" timestamp="1586090933792" />
-    <state x="634" y="300" key="FileChooserDialogImpl" timestamp="1585860348548">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="634" y="300" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1585860348548" />
-    <state width="661" height="285" key="GridCell.Tab.0.bottom" timestamp="1586037879811">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="661" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586037879811" />
-    <state width="661" height="285" key="GridCell.Tab.0.center" timestamp="1586037879811">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="661" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586037879811" />
-    <state width="661" height="285" key="GridCell.Tab.0.left" timestamp="1586037879811">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="661" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586037879811" />
-    <state width="661" height="285" key="GridCell.Tab.0.right" timestamp="1586037879811">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="661" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586037879811" />
-    <state x="159" y="196" key="SettingsEditor" timestamp="1586707529765">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="159" y="196" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1586707529765" />
-    <state x="793" y="158" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1582144892990">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="793" y="158" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1582144892990" />
-    <state x="914" y="288" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1585860329601">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="914" y="288" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585860329601" />
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1586706808823">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586706808823" />
-    <state x="147" y="49" width="758" height="957" key="find.popup" timestamp="1586193663953">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="147" y="49" width="758" height="957" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586193663953" />
+    <state width="243" height="195" key="DatabaseViewActions_Filter/0.0.1920.1050@0.0.1920.1050" timestamp="1601214044655" />
   </component>
 </project>
