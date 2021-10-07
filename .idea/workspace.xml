@@ -3,14 +3,23 @@
   <component name="AnalysisUIOptions">
     <option name="SHOW_STRUCTURE" value="true" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b3bc0bb0-f9ff-4ffd-a52f-d808dd6339d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/classes/Playlist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/classes/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/createPlaylist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/deletePlaylist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playlist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yourMusic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/classes/Artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/classes/Artist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/nowPlayingBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/nowPlayingBar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/includedFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/includedFiles.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +33,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/yourMusic.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/js/script.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/includes/handlers/ajax/createPlaylist.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/artist.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/css/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="" />
+    </include_path>
   </component>
   <component name="ProjectId" id="1Rw1xtBrUM32Vp9mMsuZFde3et2" />
   <component name="ProjectViewState">
@@ -44,6 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.id" value="Comma-separated (CSV)_id" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/musix.sql" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -57,16 +76,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\icons" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\coding\xampp\htdocs\musix_app\assets\images" />
       <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\profile_pics" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\coding\xampp\htdocs\musix_app\assets\images\icons" />
     </key>
   </component>
   <component name="RunManager">
@@ -277,7 +299,83 @@
       <workItem from="1601670727815" duration="2223000" />
       <workItem from="1601672979772" duration="378000" />
       <workItem from="1601757566670" duration="626000" />
-      <workItem from="1601825503644" duration="5140000" />
+      <workItem from="1601825503644" duration="5771000" />
+      <workItem from="1601846655252" duration="837000" />
+      <workItem from="1601930607318" duration="369000" />
+      <workItem from="1601930995414" duration="2792000" />
+      <workItem from="1602537454440" duration="1337000" />
+      <workItem from="1603146020517" duration="20000" />
+      <workItem from="1603146099105" duration="50000" />
+      <workItem from="1603551512038" duration="17000" />
+      <workItem from="1603615493631" duration="21000" />
+      <workItem from="1603644183246" duration="608000" />
+      <workItem from="1603836549268" duration="17000" />
+      <workItem from="1604009833884" duration="13000" />
+      <workItem from="1604182553849" duration="18000" />
+      <workItem from="1604442517976" duration="641000" />
+      <workItem from="1604851944535" duration="908000" />
+      <workItem from="1604874940901" duration="350000" />
+      <workItem from="1604960936919" duration="37000" />
+      <workItem from="1605195069509" duration="11000" />
+      <workItem from="1606058375667" duration="11000" />
+      <workItem from="1606346200647" duration="198000" />
+      <workItem from="1606346461949" duration="7000" />
+      <workItem from="1606675384741" duration="22000" />
+      <workItem from="1606777457092" duration="20000" />
+      <workItem from="1606860987348" duration="46000" />
+      <workItem from="1607245803396" duration="172000" />
+      <workItem from="1607246061822" duration="17000" />
+      <workItem from="1607552486073" duration="94000" />
+      <workItem from="1607618199186" duration="156000" />
+      <workItem from="1607732113398" duration="8000" />
+      <workItem from="1608309402312" duration="600000" />
+      <workItem from="1608949323983" duration="34000" />
+      <workItem from="1608949390278" duration="594000" />
+      <workItem from="1609457082935" duration="30000" />
+      <workItem from="1609457167720" duration="10000" />
+      <workItem from="1609458186184" duration="1188000" />
+      <workItem from="1610122610855" duration="35000" />
+      <workItem from="1610122661259" duration="15000" />
+      <workItem from="1611265519808" duration="19000" />
+      <workItem from="1611267190951" duration="35000" />
+      <workItem from="1611267249545" duration="100000" />
+      <workItem from="1611414984145" duration="12000" />
+      <workItem from="1611500501850" duration="519000" />
+      <workItem from="1611783997257" duration="136000" />
+      <workItem from="1611784193112" duration="441000" />
+      <workItem from="1612131302901" duration="21000" />
+      <workItem from="1612216320217" duration="2126000" />
+      <workItem from="1612736098601" duration="19000" />
+      <workItem from="1613818692918" duration="24000" />
+      <workItem from="1614291177214" duration="12000" />
+      <workItem from="1615023873772" duration="12000" />
+      <workItem from="1617638726729" duration="32000" />
+      <workItem from="1617638814826" duration="12000" />
+      <workItem from="1618769555376" duration="322000" />
+      <workItem from="1618769960732" duration="25000" />
+      <workItem from="1621152795082" duration="198000" />
+      <workItem from="1621153062045" duration="44000" />
+      <workItem from="1621783475733" duration="29000" />
+      <workItem from="1621783521480" duration="824000" />
+      <workItem from="1622386118369" duration="660000" />
+      <workItem from="1624290672991" duration="85000" />
+      <workItem from="1624290811774" duration="13000" />
+      <workItem from="1625932121688" duration="444000" />
+      <workItem from="1625932643652" duration="4000" />
+      <workItem from="1627243628663" duration="31000" />
+      <workItem from="1627333765428" duration="21000" />
+      <workItem from="1632038122664" duration="162000" />
+      <workItem from="1632038405278" duration="25000" />
+      <workItem from="1632254418245" duration="15000" />
+      <workItem from="1632343345731" duration="627000" />
+      <workItem from="1632491354993" duration="577000" />
+      <workItem from="1632643533305" duration="11000" />
+      <workItem from="1633039956199" duration="29000" />
+      <workItem from="1633040003370" duration="58000" />
+      <workItem from="1633275297864" duration="29000" />
+      <workItem from="1633380801098" duration="3681000" />
+      <workItem from="1633553072898" duration="3383000" />
+      <workItem from="1633637796799" duration="2623000" />
     </task>
     <servers />
   </component>
@@ -295,27 +393,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="655" y="141" key="#PHP" timestamp="1601673357114">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="655" y="141" key="#PHP/0.0.1920.1050@0.0.1920.1050" timestamp="1601673357114" />
-    <state x="539" y="229" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601216733510">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="539" y="229" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601216733510" />
-    <state x="640" y="244" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596375564003">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="640" y="244" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1596375564003" />
-    <state width="243" height="195" key="DatabaseViewActions_Filter" timestamp="1601214044655">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="243" height="195" key="DatabaseViewActions_Filter/0.0.1920.1050@0.0.1920.1050" timestamp="1601214044655" />
-    <state x="769" y="281" width="355" height="581" key="NewPhpClassDialog" timestamp="1601673017395">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="769" y="281" width="355" height="581" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601673017395" />
   </component>
 </project>
