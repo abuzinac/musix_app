@@ -10,34 +10,34 @@ $album = new Album($con, $albumId);
 $artist = $album->getArtist();
 ?>
 
-    <div class="entityInfo">
+<div class="entityInfo">
 
-        <div class="leftSection">
-            <img src="<?php echo $album->getArtworkPath(); ?>" alt="album artwork">
-        </div>
-
-        <div class="rightSection">
-            <h2><?php echo $album->getTitle(); ?></h2>
-            <p>By <?php echo $artist->getName(); ?></p>
-            <p><?php echo $album->getNumberOfSongs(); ?> songs</p>
-        </div>
-
+    <div class="leftSection">
+        <img src="<?php echo $album->getArtworkPath(); ?>" alt="album artwork">
     </div>
 
-    <div class="trackListContainer">
-        <ul class="trackList">
+    <div class="rightSection">
+        <h2><?php echo $album->getTitle(); ?></h2>
+        <p>By <?php echo $artist->getName(); ?></p>
+        <p><?php echo $album->getNumberOfSongs(); ?> songs</p>
+    </div>
 
-            <?php
+</div>
 
-            $songIdArray = $album->getSongIds();
+<div class="trackListContainer">
+    <ul class="trackList">
 
-            $i = 1;
-            foreach ($songIdArray as $songId) {
+        <?php
 
-                $albumSong = new Song($con, $songId);
-                $albumArtist = $albumSong->getArtist();
+        $songIdArray = $album->getSongIds();
 
-                echo "<li class='tracklistRow'>
+        $i = 1;
+        foreach ($songIdArray as $songId) {
+
+            $albumSong = new Song($con, $songId);
+            $albumArtist = $albumSong->getArtist();
+
+            echo "<li class='tracklistRow'>
 
                             <div class='trackCount'>
                                 <img class='play' src='assets/images/icons/play-white.png' onclick='setTrack(\"" . $albumSong->getId() . "\", tempPlaylist, true)' alt=''>
@@ -50,7 +50,7 @@ $artist = $album->getArtist();
                             </div>
                             
                             <div class='trackOptions'>
-                                <img class='optionsButton' src='assets/images/icons/more.png' alt='get more'>
+                                <img class='optionsButton' src='assets/images/icons/more.png' onclick='showOptionsMenu(this)' alt='get more'>
                             </div>
                             
                             <div class='trackDuration'>
@@ -59,16 +59,24 @@ $artist = $album->getArtist();
 
                        </li>";
 
-                $i = $i + 1;
+            $i = $i + 1;
 
-            }
+        }
 
-            ?>
+        ?>
 
-            <script>
-                var tempSongsIds = '<?php echo json_encode($songIdArray); ?>';
-                tempPlaylist = JSON.parse(tempSongsIds);
-            </script>
+        <script>
+            var tempSongsIds = '<?php echo json_encode($songIdArray); ?>';
+            tempPlaylist = JSON.parse(tempSongsIds);
+        </script>
 
-        </ul>
-    </div>
+    </ul>
+</div>
+
+
+<nav class="optionsMenu">
+    <input type="hidden" class="songId">
+    <div class="item">Add to playlist</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+</nav>

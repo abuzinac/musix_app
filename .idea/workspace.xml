@@ -8,18 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3bc0bb0-f9ff-4ffd-a52f-d808dd6339d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/classes/Playlist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/classes/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/createPlaylist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/deletePlaylist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playlist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yourMusic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/album.php" beforeDir="false" afterPath="$PROJECT_DIR$/album.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/includedFiles.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/includedFiles.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +25,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/assets/css/style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/artist.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/yourMusic.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/assets/js/script.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/includes/handlers/ajax/createPlaylist.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/artist.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/assets/css/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -376,6 +371,23 @@
       <workItem from="1633380801098" duration="3681000" />
       <workItem from="1633553072898" duration="3383000" />
       <workItem from="1633637796799" duration="2623000" />
+      <workItem from="1633712018638" duration="15000" />
+      <workItem from="1634676285025" duration="69000" />
+      <workItem from="1634676420840" duration="139000" />
+      <workItem from="1635285113198" duration="36000" />
+      <workItem from="1635285176770" duration="12000" />
+      <workItem from="1636276596588" duration="25000" />
+      <workItem from="1636276640257" duration="11000" />
+      <workItem from="1637086029744" duration="13000" />
+      <workItem from="1637086229693" duration="2000" />
+      <workItem from="1638089278835" duration="28000" />
+      <workItem from="1638311024260" duration="15000" />
+      <workItem from="1638723561531" duration="622000" />
+      <workItem from="1638739420382" duration="11000" />
+      <workItem from="1639000435358" duration="101000" />
+      <workItem from="1639519529879" duration="14000" />
+      <workItem from="1639520478354" duration="892000" />
+      <workItem from="1639603274995" duration="4048000" />
     </task>
     <servers />
   </component>
@@ -392,6 +404,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
