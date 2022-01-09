@@ -8,10 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3bc0bb0-f9ff-4ffd-a52f-d808dd6339d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/addToPlaylist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/handlers/ajax/removeFromPlaylist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/album.php" beforeDir="false" afterPath="$PROJECT_DIR$/album.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artist.php" beforeDir="false" afterPath="$PROJECT_DIR$/artist.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/classes/Playlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/classes/Playlist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/playlist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/search.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,6 +395,16 @@
       <workItem from="1639519529879" duration="14000" />
       <workItem from="1639520478354" duration="892000" />
       <workItem from="1639603274995" duration="4048000" />
+      <workItem from="1640556742655" duration="20000" />
+      <workItem from="1640556785905" duration="4000" />
+      <workItem from="1641159714654" duration="81000" />
+      <workItem from="1641159878933" duration="34000" />
+      <workItem from="1641338725781" duration="37000" />
+      <workItem from="1641338787301" duration="68000" />
+      <workItem from="1641568494452" duration="2380000" />
+      <workItem from="1641659132223" duration="139000" />
+      <workItem from="1641678888027" duration="3517000" />
+      <workItem from="1641742003365" duration="2747000" />
     </task>
     <servers />
   </component>
